@@ -5,107 +5,107 @@
 [![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
 
-Современное, адаптивное веб-приложение для поиска фильмов, созданное с использованием Next.js 14, TypeScript и TMDB API. Ищите свои любимые фильмы и получайте подробную информацию о них, включая рейтинги, даты выхода и описания.
+A modern, responsive movie search application built with Next.js 14, TypeScript, and the TMDB API. Search for your favorite movies and discover detailed information including ratings, release dates, and descriptions.
 
 ![Movie Search App Screenshot](./screenshots/home-page.png)
 
-## ✨ Возможности
+## ✨ Features
 
-- 🔍 **Поиск в реальном времени** - Мгновенный поиск фильмов через TMDB API
-- 🎨 **Современный UI** - Красивый дизайн с эффектами glassmorphism
-- 📱 **Полная адаптивность** - Работает на компьютерах, планшетах и телефонах
-- ⚡ **Быстрая загрузка** - Построен на Next.js 14 App Router
-- 🎯 **Типобезопасность** - Полная реализация на TypeScript
-- 🌙 **Темная тема** - Удобный для глаз темный интерфейс
-- ⭐ **Рейтинги фильмов** - Отображение оценок TMDB и дат выхода
-- 🖼️ **Качественные постеры** - Оптимизированные изображения с Next.js Image
+- 🔍 **Real-time Search** - Instant movie search powered by TMDB API
+- 🎨 **Modern UI** - Beautiful gradient design with glassmorphism effects
+- 📱 **Fully Responsive** - Works seamlessly on desktop, tablet, and mobile devices
+- ⚡ **Fast Performance** - Built with Next.js 14 App Router for optimal speed
+- 🎯 **Type-Safe** - Full TypeScript implementation for robust code
+- 🌙 **Dark Theme** - Eye-friendly dark interface
+- ⭐ **Movie Ratings** - Display TMDB ratings and release dates
+- 🖼️ **High-Quality Posters** - Optimized images with Next.js Image component
 
-## 🛠️ Технологии
+## 🛠️ Tech Stack
 
-- **Фреймворк**: [Next.js 14](https://nextjs.org/) (App Router)
-- **Язык**: [TypeScript](https://www.typescriptlang.org/)
-- **Стили**: [Tailwind CSS](https://tailwindcss.com/)
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **API**: [TMDB API](https://www.themoviedb.org/documentation/api)
-- **Хостинг**: [Vercel](https://vercel.com/)
+- **Deployment**: [Vercel](https://vercel.com/)
 
-## 📸 Скриншоты
+## 📸 Screenshots
 
-### Главная страница
+### Home Page
 ![Home Page](./screenshots/home-page.png)
 
-### Результаты поиска
+### Search Results
 ![Search Results](./screenshots/search-result.png)
 
-## 🚀 Быстрый старт
+## 🚀 Getting Started
 
-### Требования
+### Prerequisites
 
-- Node.js 18+ и npm
-- API ключ TMDB ([Получить здесь](https://www.themoviedb.org/settings/api))
+- Node.js 18+ and npm
+- TMDB API key ([Get it here](https://www.themoviedb.org/settings/api))
 
-### Установка
+### Installation
 
-1. **Клонировать репозиторий**
+1. **Clone the repository**
 ```bash
    git clone https://github.com/yourusername/movie-search-app.git
    cd movie-search-app
 ```
 
-2. **Установить зависимости**
+2. **Install dependencies**
 ```bash
    npm install
 ```
 
-3. **Настроить переменные окружения**
+3. **Set up environment variables**
    
-   Создайте файл `.env.local` в корневой директории:
+   Create a `.env.local` file in the root directory:
 ```
-   NEXT_PUBLIC_TMDB_API_KEY=ваш_api_ключ
+   NEXT_PUBLIC_TMDB_API_KEY=your_api_key_here
 ```
 
-4. **Запустить сервер разработки**
+4. **Run the development server**
 ```bash
    npm run dev
 ```
 
-5. **Открыть в браузере**
+5. **Open your browser**
    
-   Перейдите на [http://localhost:3000](http://localhost:3000)
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 📦 Сборка для продакшена
+## 📦 Build for Production
 ```bash
 npm run build
 npm start
 ```
 
-## 🌐 Развертывание
+## 🌐 Deployment
 
-Проект оптимизирован для развертывания на Vercel:
+This project is optimized for deployment on Vercel:
 
-1. Загрузите код на GitHub
-2. Импортируйте репозиторий на [Vercel](https://vercel.com)
-3. Добавьте переменную окружения: `NEXT_PUBLIC_TMDB_API_KEY`
-4. Разверните!
+1. Push your code to GitHub
+2. Import your repository on [Vercel](https://vercel.com)
+3. Add environment variable: `NEXT_PUBLIC_TMDB_API_KEY`
+4. Deploy!
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/movie-search-app)
 
-## 🤝 Вклад в проект
+## 🤝 Contributing
 
-Буду рад любому вкладу! Не стесняйтесь отправлять Pull Request.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-1. Форкните проект
-2. Создайте ветку для новой функции (`git checkout -b feature/AmazingFeature`)
-3. Закоммитьте изменения (`git commit -m 'Add some AmazingFeature'`)
-4. Запушьте в ветку (`git push origin feature/AmazingFeature`)
-5. Откройте Pull Request
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## 📄 Лицензия
+## 📄 License
 
-Этот проект распространяется под лицензией MIT - см. файл [LICENSE](LICENSE) для деталей.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Контакты
+## 👨‍💻 Contact
 
-**Ваше Имя**
+**Your Name**
 
 - 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
 - 🌐 Upwork: [Your Upwork Profile](https://upwork.com/freelancers/yourprofile)
@@ -114,6 +114,6 @@ npm start
 
 ---
 
-⭐ Если вам понравился этот проект, поставьте звезду на GitHub!
+⭐ If you like this project, please give it a star on GitHub!
 
-**Сделано с ❤️ используя Next.js и TMDB API**
+**Made with ❤️ using Next.js and TMDB API**
