@@ -1,6 +1,6 @@
 # 🎬 Movie Search App
 
-[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://your-app-url.vercel.app)
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://movie-search-app-ten-iota.vercel.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
@@ -47,7 +47,7 @@ A modern, responsive movie search application built with Next.js 14, TypeScript,
 
 1. **Clone the repository**
 ```bash
-   git clone https://github.com/yourusername/movie-search-app.git
+   git clone https://github.com/vikcher01-source/movie-search-app.git
    cd movie-search-app
 ```
 
@@ -87,7 +87,7 @@ This project is optimized for deployment on Vercel:
 3. Add environment variable: `NEXT_PUBLIC_TMDB_API_KEY`
 4. Deploy!
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/movie-search-app)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vikcher01-source/movie-search-app)
 
 ## 🤝 Contributing
 
@@ -105,12 +105,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Contact
 
-**Your Name**
+**Viktor Chernikov**
 
-- 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- 🌐 Upwork: [Your Upwork Profile](https://upwork.com/freelancers/yourprofile)
-- 📧 Email: your.email@example.com
-- 🐙 GitHub: [@yourusername](https://github.com/yourusername)
+- 💼 LinkedIn: [Connect with me](https://www.linkedin.com/in/viktor-chernikov)
+- 🌐 Upwork: [Hire me on Upwork](https://www.upwork.com/freelancers/viktorc)
+- 📧 Email: vikcher01@gmail.com
+- 🐙 GitHub: [@vikcher01-source](https://github.com/vikcher01-source)
 
 ---
 
