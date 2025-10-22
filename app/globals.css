@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Цветовая схема для светлой темы */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Цветовая схема для темной темы */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* Базовые стили для всего приложения */
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Утилиты для работы с текстом */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
