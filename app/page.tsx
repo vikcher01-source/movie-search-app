@@ -177,15 +177,3 @@ export default function Home() {
     </main>
   );
 }
-```
-
----
-
-### **Файл 9: .env.example**
-
-**Путь**: `.env.example`
-
-**Commit message**: `Add environment variables example`
-```
-# Получи свой API ключ на https://www.themoviedb.org/settings/api
-NEXT_PUBLIC_TMDB_API_KEY=your_api_key_here
